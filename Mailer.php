@@ -1,6 +1,6 @@
 <?php
 
-namespace boundstate\mailgun;
+namespace qorbarsi\mailgun;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -16,7 +16,7 @@ use \Mailgun\Mailgun;
  * 'components' => [
  *     ...
  *     'mailer' => [
- *         'class' => 'boundstate\mailgun\Mailer',
+ *         'class' => 'qorbarsi\mailgun\Mailer',
  *         'key' => 'key-example',
  *         'domain' => 'mg.example.com',
  *     ],
@@ -39,7 +39,7 @@ class Mailer extends BaseMailer
     /**
      * @var string message default class name.
      */
-    public $messageClass = 'boundstate\mailgun\Message';
+    public $messageClass = 'qorbarsi\mailgun\Message';
 
     /**
      * @var string Mailgun API credentials.

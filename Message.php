@@ -1,7 +1,6 @@
 <?php
 
-namespace boundstate\mailgun;
-
+namespace qorbarsi\mailgun;
 
 use yii\base\NotSupportedException;
 use yii\helpers\VarDumper;
